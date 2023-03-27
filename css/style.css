@@ -4,21 +4,13 @@
     background-color: #FFFFFF00;
     margin: 0 auto;
 }
-.header{
-    width: 1336px;
-    height: 178px;
-    margin: 0 auto;
-}
-.desktop-text{
-   width: 1336px;
-   margin: 0 auto;
-   text-align: center;
-}
 .small-title{
     font-size: 16px;
     color: #282828;
     font-family: 'Inter', sans-serif;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 6px;
+
 }
 .title{
     font-size: 54px;
@@ -30,63 +22,24 @@ font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     color: #5F6980;
     font-family: 'Inter', sans-serif;
-font-family: 'Open Sans', sans-serif;
-}
-.box-perent{
-    width: 310px;
-    height: 430px;
-    background-color: #EAECF0;
-}
-.name{
-    font-size: 18px;
-    color: #282828;
-    font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 16px;
 }
-.position{
-  font-size: 14px;
-  color: #3E3E59;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-}
-.description{
-    font-size: 14px;
-    color: #5F6980;
-    font-family: 'Inter', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-}
-.icon{
-   width: 36px;
-   height: 36px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-.box-child{
-    display: flex;
-    flex-direction: column;
-}
-.coards{
+.header{
     width: 1336px;
-    height: 908px;
-    
+    height: 178px;
+    margin: 0 auto;
+    padding: 80px 52px 0 52px;
+}
+.desktop-text{
+   width: 1336px;
+   margin: 0 auto;
+   text-align: center;
+}
 
-}
-.cards{
-    display: flex;
-    justify-content: center;
-    width: 1336px;
-    height: 908px;
-    
-}
-.div-main{
-    display: flex;
-    
-}
 .footer-main{
     width: 1306px;
     height: 223px;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
 }
@@ -107,6 +60,7 @@ font-family: 'Open Sans', sans-serif;
     color: #535353;
     font-family: 'Inter', sans-serif;
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
 }
 .footer-block2{
    width: 136px;
@@ -134,7 +88,8 @@ font-family: 'Open Sans', sans-serif;
 }
 .block3-h3{
    width: 85px;
-   height: 24px; 
+   height: 24px;
+   font-size: 24px;
 }
 .footer-li3{
     width: 199px;
@@ -143,4 +98,102 @@ font-family: 'Open Sans', sans-serif;
 .footer-block4{
     width: 107px;
     height: 127px;
+}
+.conteiner{
+    width: 1336px;
+    margin: 0 auto;
+
+}
+.flux-perent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 908px;
+    align-content: space-between;
+    margin-top: 40px;
+}
+.box{
+    width: 310px;
+    height: 430px;
+}
+.text-box{
+    width: 278px;
+}
+.width-box{
+background-color: #fff;
+    padding: 16px;
+}
+.icon{
+    width:36px;
+    height: 36px;
+    background-color:#F2F4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+.icons{
+    display: flex;
+    margin-top: 24px;
+}
+.image1{
+    display: block;
+}
+.div-h2{
+    font-size: 18px;
+    color: #282828;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.div-h3{
+    font-size: 14px;
+    color: #3E3E59;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+.div-p{
+    font-size: 14px;
+    color: #5F6980;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.languages{
+    margin-bottom: 78px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+.li-about{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #535353;
+}
+.li-home{
+    margin-top: 75px;
+    color: #535353;
+}
+.li-getin{
+    color:#535353;
+}
+.li-will{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #535353;
+}
+.li-asset{
+    margin-top: 75px;
+    color: #535353;
+}
+.li-time{
+    color: #535353; 
+}
+.block1-img{
+    margin-bottom: 32px;
+}
+.footer-h3{
+    font-size: 24px;
+    color:#1E1E1E;
+    font-family: 'Inter', sans-serif
 }
